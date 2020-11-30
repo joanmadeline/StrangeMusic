@@ -1,0 +1,37 @@
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar input {
+  margin-top: 5%;
+  width: 20%;
+  min-width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #0267c1;
+  text-align: center;
+  color: #0267c1;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Balsamiq Sans";
+}
+
+.search-bar button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  background-color: #efa00b;
+  border: none;
+  width: 6%;
+  min-width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  color: #0267c1;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Balsamiq Sans";
+  cursor: pointer;
+}

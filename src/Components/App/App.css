@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+.App {
+  text-align: center;
+  background-color: #f9f9ff;
+  font-family: "Balsamiq Sans";
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.banner {
+  background-color: #efa00b;
+  color: #591f0a;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-icon {
+  font-size: 32px;
+  margin-right: 1%;
+}
+
+/* .banner img {
+  height: 70px;
+  width: auto;
+  margin-right: 1%;
+} */
+
+.results-playlist {
+  display: flex;
+  justify-content: center;
+}
+
+.tracklist {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  width: 50%;
+  height: 100%;
+  border: 2px solid #0267c1;
+  border-radius: 30px;
+}
+
+::placeholder {
+  color: #0267c1;
+}
